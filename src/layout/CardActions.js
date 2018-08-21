@@ -29,4 +29,4 @@ CardActions.propTypes = {
     className: PropTypes.string,
 };
 
-export default withStyles(styles)(CardActions);
+export default withStyles(styles, { name: 'CardActions' })(CardActions);

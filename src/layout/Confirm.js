@@ -106,4 +106,4 @@ Confirm.defaultProps = {
     isOpen: false,
 };
 
-export default withStyles(styles)(Confirm);
+export default withStyles(styles, { name: 'Confirm' })(Confirm);

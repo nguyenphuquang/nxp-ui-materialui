@@ -100,7 +100,7 @@ Error.propTypes = {
 };
 
 const enhance = compose(
-    withStyles(styles),
+    withStyles(styles, { name: 'Error' }),
     translate
 );
 

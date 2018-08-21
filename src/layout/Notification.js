@@ -138,7 +138,7 @@ const mapStateToProps = state => ({
 
 export default compose(
     translate,
-    withStyles(styles),
+    withStyles(styles, { name: 'Notification' }),
     connect(
         mapStateToProps,
         {

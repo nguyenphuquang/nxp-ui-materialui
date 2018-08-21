@@ -10,6 +10,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'space-between',
     },
+    title: {},
 };
 
 export const Header = ({
@@ -21,7 +22,7 @@ export const Header = ({
     ...rest
 }) => (
     <div className={classnames(classes.root, className)} {...rest}>
-        <ViewTitle title={title} />
+        <ViewTitle title={title} className={classes.title} />
         {actions && React.cloneElement(actions, actionProps)}
     </div>
 );
@@ -34,4 +35,4 @@ Header.propTypes = {
     actionProps: PropTypes.object,
 };
 
-export default withStyles(styles)(Header);
+export default withStyles(styles, { name: 'Header' })(Header);
