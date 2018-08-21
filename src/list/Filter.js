@@ -96,4 +96,4 @@ Filter.defaultProps = {
     debounce: 500,
 };
 
-export default withStyles(styles)(Filter);
+export default withStyles(styles, { name: 'Filter' })(Filter);

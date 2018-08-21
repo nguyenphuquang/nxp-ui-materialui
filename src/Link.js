@@ -25,4 +25,4 @@ Link.propTypes = {
     to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 };
 
-export default withStyles(styles)(Link);
+export default withStyles(styles, { name: 'Link' })(Link);

@@ -137,4 +137,4 @@ SimpleList.defaultProps = {
     selectedIds: [],
 };
 
-export default withStyles(styles)(SimpleList);
+export default withStyles(styles, { name: 'SimpleList' })(SimpleList);

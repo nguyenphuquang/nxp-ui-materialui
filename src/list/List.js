@@ -262,4 +262,4 @@ List.defaultProps = {
     theme: defaultTheme,
 };
 
-export default withStyles(styles)(List);
+export default withStyles(styles, { name: 'List' })(List);

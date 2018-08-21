@@ -213,4 +213,4 @@ Datagrid.defaultProps = {
     selectedIds: [],
 };
 
-export default withStyles(styles)(Datagrid);
+export default withStyles(styles, { name: 'Datagrid' })(Datagrid);

@@ -149,7 +149,7 @@ export const mergeInitialValuesWithDefaultValues = ({
 });
 
 const enhance = compose(
-    withStyles(styles),
+    withStyles(styles, { name: 'FilterForm' }),
     withProps(mergeInitialValuesWithDefaultValues),
     reduxForm({
         form: 'filterForm',

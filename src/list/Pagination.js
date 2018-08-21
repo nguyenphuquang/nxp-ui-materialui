@@ -246,7 +246,7 @@ Pagination.propTypes = {
 const enhance = compose(
     pure,
     translate,
-    withStyles(styles)
+    withStyles(styles, { name: 'Pagination' })
 );
 
 export default enhance(Pagination);
