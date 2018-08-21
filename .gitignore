@@ -1,0 +1,7 @@
+npm-debug.log
+yarn-error.log
+lerna-debug.log
+node_modules
+lib
+es6
+package-lock.json
