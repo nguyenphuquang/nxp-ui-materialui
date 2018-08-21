@@ -1,4 +1,6 @@
-# ra-ui-material
+# nxp-ui-material
+
+Fork from ra-ui-material
 
 UI Components for [react-admin](https://marmelab.com/react-admin/) with [MaterialUI](https://material-ui.com/).
 
