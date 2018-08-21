@@ -4,7 +4,7 @@
     "description": "UI Components for react-admin with MaterialUI",
     "files": [
         "*.md",
-        "src"
+        "lib"
     ],
     "main": "lib/index",
     "authors": [
